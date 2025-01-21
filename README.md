@@ -22,10 +22,11 @@ Specifically:
    (Tip: you can start typing "open folder" and click the correct line as soon as it appears.
    Make sure the one you click begins with "Dev Containers:")
 3. Select the folder you created for this project. It will then prompt you for several options:
-   * Type "c++" and select "C++ devcontainers"
+   * select "add configuration to workspace"
+   * type "c++" and select "C++ devcontainers"
    * select "debian-11 (default)"
    * select "none (default)"
-   * it will ask for additional features; select none and click "OK"
+   * it will ask for additional features, possibly twice; do not select any, and then click "OK" each time
 4. Wait patiently while it creates and launches your *Docker container*.
 5. Open a terminal in VS Code ("Terminal -> New Terminal")
 
